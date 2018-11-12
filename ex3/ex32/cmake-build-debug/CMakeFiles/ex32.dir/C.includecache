@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/omerz/CLionProjects/C/Operating Systems/ex32/ex32.c
+fcntl.h
+-
+stdio.h
+-
+stdlib.h
+-
+memory.h
+-
+dirent.h
+-
+stdbool.h
+-
+wait.h
+-
+unistd.h
+-
+
