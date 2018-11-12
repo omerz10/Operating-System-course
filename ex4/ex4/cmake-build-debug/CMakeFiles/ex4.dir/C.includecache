@@ -1,0 +1,52 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/omerz/CLionProjects/C/Operating Systems/ex4/main.c
+stdio.h
+-
+malloc.h
+-
+unistd.h
+-
+threadPool.h
+/home/omerz/CLionProjects/C/Operating Systems/ex4/threadPool.h
+stdlib.h
+-
+osqueue.h
+/home/omerz/CLionProjects/C/Operating Systems/ex4/osqueue.h
+
+/home/omerz/CLionProjects/C/Operating Systems/ex4/osqueue.c
+osqueue.h
+/home/omerz/CLionProjects/C/Operating Systems/ex4/osqueue.h
+stdlib.h
+-
+
+/home/omerz/CLionProjects/C/Operating Systems/ex4/osqueue.h
+
+/home/omerz/CLionProjects/C/Operating Systems/ex4/threadPool.c
+stdio.h
+-
+stdlib.h
+-
+pthread.h
+-
+fcntl.h
+-
+memory.h
+-
+threadPool.h
+/home/omerz/CLionProjects/C/Operating Systems/ex4/threadPool.h
+
+/home/omerz/CLionProjects/C/Operating Systems/ex4/threadPool.h
+osqueue.h
+/home/omerz/CLionProjects/C/Operating Systems/ex4/osqueue.h
+zconf.h
+-
+malloc.h
+-
+
