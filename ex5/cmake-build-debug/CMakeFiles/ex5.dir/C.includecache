@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/omerz/CLionProjects/C/Operating Systems/ex5/ex51.c
+signal.h
+-
+stdio.h
+-
+unistd.h
+-
+wait.h
+-
+stdlib.h
+-
+termio.h
+-
+
